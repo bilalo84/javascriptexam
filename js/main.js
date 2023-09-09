@@ -392,7 +392,7 @@ $(".arw-p").click( function () {
 
  $("#Contact").click( function () {
   $('html, body').animate({
-    scrollTop: $("#Contact").offset().top
+    scrollTop: $("#contactUs").offset().top
 }, 2000);
  });
 
