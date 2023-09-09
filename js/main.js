@@ -390,6 +390,11 @@ $(".arw-p").click( function () {
   $('html, body').animate({scrollTop:0}, 2000 );
  });
 
+ $("#Contact").click( function () {
+  console.log("hello")
+  $.scrollTo($('#contactUs'), 1000);
+ });
+
  
 
 $(window).scroll(function(){
